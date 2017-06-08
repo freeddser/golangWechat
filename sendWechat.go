@@ -98,7 +98,7 @@ func main() {
 		fmt.Println("Example:go run sentWechat.go 123456 1 testmsg")
 		os.Exit(1)
 	}
-  #if you don't need this can remove
+  //if you don't need this can remove
 	if os.Args[1] != "123456" {
 		fmt.Print("#####secret error,exit#####")
 		os.Exit(1)
